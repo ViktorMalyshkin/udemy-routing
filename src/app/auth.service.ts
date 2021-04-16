@@ -10,7 +10,7 @@ export class AuthService {
     const promise: Promise<boolean> = new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(this.loggedIn);
-      }, 800);
+      }, 1000);
     });
     return promise;
   }
